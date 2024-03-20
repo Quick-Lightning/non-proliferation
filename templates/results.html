@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>"{{searchQuery}}"</title>
+        <link rel="stylesheet" href="https://cdn.metroui.org.ua/current/metro.css">
+    </head>
+
+    <body style="background-image: url('/static/blob.svg'); background-size: cover;  display:flex; margin:0; flex-direction:column; color: white;">
+        <button class="button primary">You searched for: {{searchQuery}}</button>
+        <br><br>
+        <ul>
+            <li style="list-style-type: none;">
+                <h4><a href={{url1}} style="color: #F39237;">{{title1}}</a></h4>
+            </li>
+            <li style="list-style-type: none;">
+                <h4><a style="color: #F39237;" href={{url2}}>{{title2}}</a></h4>
+            </li>
+            <li style="list-style-type: none;">
+                <h4><a style="color: #F39237;" href={{url3}}>{{title3}}</a></h4>
+            </li>
+            <li style="list-style-type: none;">
+                <h4><a style="color: #F39237;" href={{url4}}>{{title4}}</a></h4>
+            </li>
+            <li style="list-style-type: none;">
+                <h4><a style="color: #F39237;" href={{url5}}>{{title5}}</a></h4>
+            </li>
+        </ul>
+        <script src="https://cdn.metroui.org.ua/current/metro.js"></script>
+    </body>
+</html>
